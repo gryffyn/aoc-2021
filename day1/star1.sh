@@ -15,4 +15,4 @@ done < "$FILE"
 # Above loop incorrectly counts first entry as being an increase
 ((INCCOUNT--))
 
-echo "FINALCOUNT is $INCCOUNT"
+echo "$INCCOUNT"
